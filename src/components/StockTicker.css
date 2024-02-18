@@ -1,0 +1,48 @@
+/* src/components/StockTicker.css */
+
+@font-face {
+  font-family: 'PixelOperator';
+  src: url('../../fonts/PixelOperator.ttf') format('truetype');
+}
+
+.led-ticker-container {
+  overflow: hidden;
+  position: relative;
+  height: 50px; /* Adjust height as needed */
+  width: 100%;
+  background: #000;
+  margin-top: 5px;
+}
+
+.led-ticker {
+  display: flex;
+  position: absolute;
+  /* Set the width to fit all your items comfortably, it may be more than 200% depending on content */
+  width: calc(100% + 400px); /* Adjust this value based on the total width of your ticker items */
+  /* Adjust the animation duration to control the speed of the ticker */
+  animation: tickerMove linear infinite 26s; 
+}
+
+.stock-item {
+  margin-right: 500px; /* Adjust space between each ticker item */
+  font-family: 'PixelOperator', sans-serif;
+  color: #00ff00;
+  padding: 10px;
+  white-space: nowrap;
+  font-size: 25px;
+}
+
+.stock-symbol,
+.stock-price {
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+@keyframes tickerMove {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

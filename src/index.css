@@ -1,0 +1,23 @@
+.alert {
+  max-width: 300px;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  padding: 50px;
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414; /* Dark grey background for the app */
+  background: radial-gradient(circle at center, #112211 10%, #141414 80%);
+  display: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

@@ -1,0 +1,152 @@
+.card-style {
+    background-color: #1a2a1a; /* Dark green for the card background */
+    box-shadow: 0 0 90px #2e8b57; /* Soft green glow */
+    color: #ffffff; /* White text for better contrast */
+   border: none;
+    /* Other styling as needed */
+  }
+
+  /* SwapComponent.css */
+.btn-custom {
+  background-color: #006400; /* Darker green for the button background */
+  border-color: #006400; /* Lighter green for the button border */
+  color: #ffffff; /* White text color for contrast */
+  width: 100%;
+
+  /* Additional styles can go here */
+}
+
+.btn-custom:hover {
+  background-color: #438a43; /* Even darker green for the button background on hover */
+  border-color: #438a43; /* Keep the lighter green border color on hover */
+  /* Additional hover styles can go here */
+}
+
+  
+ /* SwapComponent.css or App.css */
+.form-control {
+    background-color: #1a2a1a; /* Dark green for the input background */
+    color: #ffffff; /* White color for input text */
+    border: none;
+    border-color: #2e8b57; /* Green border */
+    
+  }
+
+  .input-group-custom {
+    border: 1px solid #2e8b57; /* Green border for input groups */
+    border-radius: 0.25rem; /* Rounded corners if needed */
+    overflow: hidden; /* Ensures the child elements do not overflow the border-radius */
+  }
+
+
+  /* When the input is focused, do not change the background or text color */
+  .form-control:focus {
+    background-color: #1a2a1a; /* Keep the same background color */
+    color: #ffffff; /* Keep text color white */
+    border-color: #2e8b57; /* Optionally, change the border color to indicate focus */
+  }
+  
+  /* Style for the placeholder */
+  .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Light white/grey color for placeholder text */
+  }
+
+  .form-control:disabled {
+    background-color: #1a2a1a; /* Keep the same background color */
+    color: #ffffff; /* Keep text color white */
+    border-color: #2e8b57; /* Maintain the green border */
+    opacity: 1; /* Prevent default lowering of opacity */
+  }
+  
+  
+  /* Style for the placeholder of disabled inputs */
+  .form-control:disabled::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Light white/grey color for placeholder text */
+  }
+  
+
+  
+.dropdown-menu {
+  background-color: #1a2a1a; /* Dark green background */
+  /* Other dropdown styles as needed */
+}
+
+.dropdown-item {
+  color: #ffffff; /* White text for better contrast */
+}
+
+.dropdown-item:hover {
+  background-color: #2e8b57; /* Lighter green for hover background */
+}
+.dropdown-item::selection{
+  background-color: #3c5b3c;
+
+}
+
+.dropdown-item:focus {
+  background-color: #2e8b57; /* Lighter green for hover background */
+
+}
+
+
+.deposit-labels {
+  background-color: #3c5b3c;
+  border-color: #2e8b57;
+  color: #ffffff;
+
+}
+.card-style-chart{
+  background-color: #1a2a1a; /* Dark green for the card background */
+  box-shadow: 0 0 97px #2e8b57; /* Soft green glow */
+  color: #ffffff; /* White text for better contrast */
+ border: none;
+  /* Other styling as needed */
+  height: 600px;
+}
+
+.card-style-table{
+ 
+  background-color: #1a2a1a; /* Dark green for the card background */
+  box-shadow: 0 0 97px #2e8b57; /* Soft green glow */
+  
+    
+}
+
+.table-body:hover{
+  color: #ffffff;
+
+}
+
+
+.nav-custom .nav-link {
+  color: #ffffff; /* White text for better contrast */
+}
+
+.nav-custom .nav-link:hover {
+  background-color: #2e8b57;
+   /* Lighter green for hover background */
+  color: #ffffff; /* Ensure text color remains white on hover */
+}
+
+.nav-custom .nav-link.active {
+  background-color: #006400; /* Darker green for the active tab */
+  color: #ffffff;
+  border-color: #006400; /* Optional: if you want a border around the active tab */
+}
+
+
+
+.navbar-custom {
+  background-color: #1a2a1a; /* Dark green for the navbar background */
+  color: #ffffff; /* White text for better contrast */
+  
+}
+.navbar-toggler-custom {
+  border-color: #2e8b57; /* Soft green border for the navbar toggler */
+}
+
+/* You may also want to customize the navbar-brand, nav-link, and dropdown colors here */
+.navbar-brand, .navbar-custom .nav-link {
+  color: #ffffff !important; /* Ensuring white text for better readability */
+}
+
