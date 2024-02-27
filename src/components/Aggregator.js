@@ -139,7 +139,7 @@ const Aggregator = () => {
             <Row className='my-3'>
               <div className='d-flex justify-content-between'>
                 <Form.Label><strong>Input:</strong></Form.Label>
-                <Form.Text muted>
+                <Form.Text style={{color:"white"}}>
                   Wallet Balance: {
                     inputToken === symbols[0] ? (
                       balances[0]
@@ -174,7 +174,7 @@ const Aggregator = () => {
             <Row className='my-4'>
               <div className='d-flex justify-content-between'>
                 <Form.Label><strong>Output:</strong></Form.Label>
-                <Form.Text muted>
+                <Form.Text style={{color:"white"}}>
                 Wallet Balance: {
                     outputToken === symbols[0] ? (
                       balances[0]
@@ -215,14 +215,14 @@ const Aggregator = () => {
             </p>
 
             Exchange Rate on <strong>AMM 1:</strong> {amm1Rate}
-            <Form.Text >
+            <Form.Text style={{color:"white"}} >
               <br></br>
               {inputToken} Liquidity: {
                 getRateAndBalance(inputToken, outputToken, aggregatorData.amm1).balance1
               }
             </Form.Text>
 
-            <Form.Text >
+            <Form.Text style={{color:"white"}} >
               <br></br>
               {outputToken} Liquidity: {
                 getRateAndBalance(inputToken, outputToken, aggregatorData.amm1).balance2
@@ -232,14 +232,14 @@ const Aggregator = () => {
 
 
             Exchange Rate on <strong>AMM 2:</strong>  {amm2Rate}
-            <Form.Text >
+            <Form.Text style={{color:"white"}}>
               <br></br>
               {inputToken} Liquidity: {
                 getRateAndBalance(inputToken, outputToken, aggregatorData.amm2).balance1
               }
             </Form.Text>
 
-            <Form.Text >
+            <Form.Text style={{color:"white"}}>
               <br></br>
               {outputToken} Liquidity: {
                 getRateAndBalance(inputToken, outputToken, aggregatorData.amm2).balance2

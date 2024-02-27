@@ -52,7 +52,7 @@ const Withdraw = () => {
           <Form onSubmit={withdrawHandler} style={{ maxWidth: '450px', margin: '50px auto' }}>
 
             <Row>
-              <Form.Text className='text-end my-2 ' muted>
+              <Form.Text className='text-end my-2 ' style={{color:"white"}}>
                 Shares: {shares}
               </Form.Text>
               <InputGroup>

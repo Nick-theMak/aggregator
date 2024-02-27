@@ -136,7 +136,7 @@ const Swap = () => {
             <Row className='my-3'>
               <div className='d-flex justify-content-between'>
                 <Form.Label ><strong>Input:</strong></Form.Label>
-                <Form.Text muted>
+                <Form.Text style={{color:"white"}}>
                   Wallet Balance: {
                     inputToken === symbols[0] ? (
                       balances[0]
@@ -170,7 +170,7 @@ const Swap = () => {
             <Row className='my-4'>
               <div className='d-flex justify-content-between'>
                 <Form.Label><strong>Output:</strong></Form.Label>
-                <Form.Text muted>
+                <Form.Text style={{color:"white"}}>
                 Wallet Balance: {
                     outputToken === symbols[0] ? (
                       balances[0]
@@ -205,7 +205,7 @@ const Swap = () => {
                 <Button type='submit' className='btn-custom'>Swap</Button>
               )}
 
-              <Form.Text muted>
+              <Form.Text style={{color:"white"}}>
                 Exchange Rate: {price}
               </Form.Text>
             </Row>

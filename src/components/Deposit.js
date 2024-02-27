@@ -76,7 +76,7 @@ const Deposit = () => {
         {account ? (
           <Form onSubmit={depositHandler} style={{ maxWidth: '450px', margin: '50px auto' }} className='form-control'>
             <Row className='my-3'>
-              <Form.Text className='text-end my-2' muted>
+              <Form.Text className='text-end my-2' style={{color:"white"}}>
                 Balance: {balances[0]}
               </Form.Text>
               <InputGroup>
@@ -97,7 +97,7 @@ const Deposit = () => {
             </Row>
 
             <Row className='my-3'>
-              <Form.Text className='text-end my-2' muted>
+              <Form.Text className='text-end my-2' style={{color:"white"}}>
                 Balance: {balances[1]}
               </Form.Text>
               <InputGroup>
