@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Blockies from 'react-blockies';
-import logo from '../logo.png';
+import logo from '../Hummingbird_Logo.png';
 
 import { loadAccount, loadBalances } from '../store/interactions';
 import { selectAmm } from '../store/reducers/amm';
@@ -59,7 +59,7 @@ const Navigation = () => {
         height="100"
         className="d-inline-block align-top mx-3"
       />
-      <Navbar.Brand className='text-white' >Meridian Finance </Navbar.Brand>
+      <Navbar.Brand className='text-white' >Hummingbird Finance </Navbar.Brand>
 
       <Navbar.Toggle aria-controls="nav" className='navbar-toggler-custom' />
       <Navbar.Collapse id="nav" className="justify-content-end">
