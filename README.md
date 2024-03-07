@@ -16,6 +16,7 @@ Welcome to the AMM Dex aggregator. This project demonstrates two deployed decent
 ## Requirements For Initial Setup
 
 - Install [NodeJS](https://nodejs.org/en/)
+- Have [MetaMask](https://metamask.io/) Web Extension installed and configured for a [Hardhat Network](https://docs.metamask.io/wallet/how-to/run-devnet/) (Note: in the `config.js` file you will see the specified chainId to configure the wallet)
 
 ## Setting up the Environment
 
